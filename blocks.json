@@ -1,0 +1,1048 @@
+[
+	{
+		"prefix": "0000::/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "0000::/8",
+				"type": "various",
+				"description": "Unspecified, Loopback, IPv4 Trans.",
+				"subblocks": [
+					{
+						"prefix": "0000::/12",
+						"type": "various",
+						"description": "Unspecified, Loopback"
+					},
+					{
+						"prefix": "0010::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "0020::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "0030::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "0040::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "0050::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "0060::/12",
+						"type": "various",
+						"description": "IPv4 Translation"
+					},
+					{
+						"prefix": "0070::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "0080::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "0090::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "00a0::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "00b0::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "00c0::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "00d0::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "00e0::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "00f0::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					}
+				]
+			},
+			{
+				"prefix": "0100::/8",
+				"type": "various",
+				"description": "Discard-Only",
+				"subblocks": [
+					{
+						"prefix": "0100::/12",
+						"type": "various",
+						"description": "Discard-Only"
+					},
+					{
+						"prefix": "0110::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "0120::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "0130::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "0140::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "0150::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "0160::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "0170::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "0180::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "0190::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "01a0::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "01b0::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "01c0::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "01d0::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "01e0::/12",
+						"type": "reserved"
+					},
+					{
+						"prefix": "01f0::/12",
+						"type": "reserved"
+					}
+				]
+			},
+			{
+				"prefix": "0200::/8",
+				"type": "deprecated",
+				"description": "NSAP Mapping (Deprec.)"
+			},
+			{
+				"prefix": "0300::/8",
+				"type": "deprecated",
+				"description": "NSAP Mapping (Deprec.)"
+			},
+			{
+				"prefix": "0400::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "0500::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "0600::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "0700::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "0800::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "0900::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "0a00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "0b00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "0c00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "0d00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "0e00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "0f00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			}
+		]
+	},
+	{
+		"prefix": "1000::/4",
+		"type": "reserved",
+		"description": "Reserved"
+	},
+	{
+		"prefix": "2000::/4",
+		"type": "various",
+		"description": "Global Unicast",
+		"subblocks": [
+			{
+				"prefix": "2000::/8",
+				"type": "various",
+				"description": "Various",
+				"subblocks": [
+					{
+						"prefix": "2000::/12",
+						"type": "various",
+						"description": "Various"
+					},
+					{
+						"prefix": "2010::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2020::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2030::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2040::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2050::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2060::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2070::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2080::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2090::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "20a0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "20b0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "20c0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "20d0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "20e0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "20f0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					}
+				]
+			},
+			{
+				"prefix": "2100::/8",
+				"type": "reserved",
+				"description": "Global Unicast (Reserved)"
+			},
+			{
+				"prefix": "2200::/8",
+				"type": "reserved",
+				"description": "Global Unicast (Reserved)"
+			},
+			{
+				"prefix": "2300::/8",
+				"type": "reserved",
+				"description": "Global Unicast (Reserved)"
+			},
+			{
+				"prefix": "2400::/8",
+				"type": "various",
+				"description": "RIRs (APNIC)",
+				"subblocks": [
+					{
+						"prefix": "2400::/12",
+						"type": "unicast",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "2410::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2420::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2430::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2440::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2450::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2460::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2470::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2480::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2490::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "24a0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "24b0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "24c0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "24d0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "24e0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "24f0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					}
+				]
+			},
+			{
+				"prefix": "2500::/8",
+				"type": "reserved",
+				"description": "Global Unicast (Reserved)"
+			},
+			{
+				"prefix": "2600::/8",
+				"type": "various",
+				"description": "RIRs (ARIN)",
+				"subblocks": [
+					{
+						"prefix": "2600::/12",
+						"type": "unicast",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "2610::/12",
+						"type": "various",
+						"description": "RIRs (ARIN)"
+					},
+					{
+						"prefix": "2620::/12",
+						"type": "various",
+						"description": "ARIN, AS112"
+					},
+					{
+						"prefix": "2630::/12",
+						"type": "unicast",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "2640::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2650::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2660::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2670::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2680::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2690::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "26a0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "26b0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "26c0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "26d0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "26e0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "26f0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					}
+				]
+			},
+			{
+				"prefix": "2700::/8",
+				"type": "reserved",
+				"description": "Global Unicast (Reserved)"
+			},
+			{
+				"prefix": "2800::/8",
+				"type": "various",
+				"description": "RIRs (LACNIC)",
+				"subblocks": [
+					{
+						"prefix": "2800::/12",
+						"type": "unicast",
+						"description": "LACNIC"
+					},
+					{
+						"prefix": "2810::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2820::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2830::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2840::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2850::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2860::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2870::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2880::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2890::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "28a0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "28b0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "28c0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "28d0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "28e0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "28f0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					}
+				]
+			},
+			{
+				"prefix": "2900::/8",
+				"type": "reserved",
+				"description": "Global Unicast (Reserved)"
+			},
+			{
+				"prefix": "2a00::/8",
+				"type": "various",
+				"description": "RIRs (RIPE NCC)",
+				"subblocks": [
+					{
+						"prefix": "2a00::/12",
+						"type": "unicast",
+						"description": "RIPE NCC"
+					},
+					{
+						"prefix": "2a10::/12",
+						"type": "unicast",
+						"description": "RIPE NCC"
+					},
+					{
+						"prefix": "2a20::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2a30::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2a40::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2a50::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2a60::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2a70::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2a80::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2a90::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2aa0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2ab0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2ac0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2ad0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2ae0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2af0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					}
+				]
+			},
+			{
+				"prefix": "2b00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "2c00::/8",
+				"type": "various",
+				"description": "RIRs (AFRINIC)",
+				"subblocks": [
+					{
+						"prefix": "2c00::/12",
+						"type": "unicast",
+						"description": "AFRINIC"
+					},
+					{
+						"prefix": "2c10::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2c20::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2c30::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2c40::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2c50::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2c60::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2c70::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2c80::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2c90::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2ca0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2cb0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2cc0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2cd0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2ce0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					},
+					{
+						"prefix": "2cf0::/12",
+						"type": "reserved",
+						"description": "Global Unicast (Reserved)"
+					}
+				]
+			},
+			{
+				"prefix": "2d00::/8",
+				"type": "reserved",
+				"description": "Global Unicast (Reserved)"
+			},
+			{
+				"prefix": "2e00::/8",
+				"type": "reserved",
+				"description": "Global Unicast (Reserved)"
+			},
+			{
+				"prefix": "2f00::/8",
+				"type": "reserved",
+				"description": "Global Unicast (Reserved)"
+			}
+		]
+	},
+	{
+		"prefix": "3000::/4",
+		"type": "reserved",
+		"description": "Global Unicast (Reserved)"
+	},
+	{
+		"prefix": "4000::/4",
+		"type": "reserved",
+		"description": "Reserved"
+	},
+	{
+		"prefix": "5000::/4",
+		"type": "reserved",
+		"description": "Reserved"
+	},
+	{
+		"prefix": "6000::/4",
+		"type": "reserved",
+		"description": "Reserved"
+	},
+	{
+		"prefix": "7000::/4",
+		"type": "reserved",
+		"description": "Reserved"
+	},
+	{
+		"prefix": "8000::/4",
+		"type": "reserved",
+		"description": "Reserved"
+	},
+	{
+		"prefix": "9000::/4",
+		"type": "reserved",
+		"description": "Reserved"
+	},
+	{
+		"prefix": "a000::/4",
+		"type": "reserved",
+		"description": "Reserved"
+	},
+	{
+		"prefix": "b000::/4",
+		"type": "reserved",
+		"description": "Reserved"
+	},
+	{
+		"prefix": "c000::/4",
+		"type": "reserved",
+		"description": "Reserved"
+	},
+	{
+		"prefix": "d000::/4",
+		"type": "reserved",
+		"description": "Reserved"
+	},
+	{
+		"prefix": "e000::/4",
+		"type": "reserved",
+		"description": "Reserved"
+	},
+	{
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "f000::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "f100::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "f200::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "f300::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "f400::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "f500::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "f600::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "f700::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "f800::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "f900::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "fa00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "fb00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "fc00::/8",
+				"type": "special",
+				"description": "Unique Local Unicast (Reserved)"
+			},
+			{
+				"prefix": "fd00::/8",
+				"type": "special",
+				"description": "Unique Local Unicast"
+			},
+			{
+				"prefix": "fe00::/8",
+				"type": "various",
+				"description": "Link-Local Unicast, Site-Local Unicast (Deprec.)",
+				"subblocks": [
+					{
+						"prefix": "fe00::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "fe10::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "fe20::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "fe30::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "fe40::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "fe50::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "fe60::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "fe70::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "fe80::/12",
+						"type": "special",
+						"description": "Link-Local Unicast"
+					},
+					{
+						"prefix": "fe90::/12",
+						"type": "special",
+						"description": "Link-Local Unicast"
+					},
+					{
+						"prefix": "fea0::/12",
+						"type": "special",
+						"description": "Link-Local Unicast"
+					},
+					{
+						"prefix": "feb0::/12",
+						"type": "special",
+						"description": "Link-Local Unicast"
+					},
+					{
+						"prefix": "fec0::/12",
+						"type": "deprecated",
+						"description": "Site-Local Unicast (Deprecated)"
+					},
+					{
+						"prefix": "fed0::/12",
+						"type": "deprecated",
+						"description": "Site-Local Unicast (Deprecated)"
+					},
+					{
+						"prefix": "fee0::/12",
+						"type": "deprecated",
+						"description": "Site-Local Unicast (Deprecated)"
+					},
+					{
+						"prefix": "fef0::/12",
+						"type": "deprecated",
+						"description": "Site-Local Unicast (Deprecated)"
+					}
+				]
+			},
+			{
+				"prefix": "ff00::/8",
+				"type": "special",
+				"description": "Multicast"
+			}
+		]
+	}
+]
