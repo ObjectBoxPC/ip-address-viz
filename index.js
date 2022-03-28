@@ -64,30 +64,6 @@
 		}
 	}
 
-	var buildRowFunctions = {
-		global_unicast: function (row) {
-			row
-				.selectAll('td');
-		},
-		unassigned: function (row, d) {
-			row
-				.append('td')
-				.attr('colspan', gridColumns)
-				.classed('block-unassigned', true)
-				.text(d.description);
-		},
-		reserved: function (row, d) {
-			row
-				.append('td')
-				.attr('colspan', gridColumns)
-				.classed('block-reserved', true)
-				.text(d.description);
-		},
-		various: function (row) {
-			// TODO
-		},
-	};
-
 	var table = d3.select('main').append('table');
 	var headerRow = table.append('tr');
 	headerRow.append('th');
