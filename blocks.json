@@ -441,7 +441,7 @@
 			{
 				"prefix": "2600::/8",
 				"type": "various",
-				"description": "RIRs (ARIN)",
+				"description": "RIRs (ARIN), AS112",
 				"subblocks": [
 					{
 						"prefix": "2600::/12",
