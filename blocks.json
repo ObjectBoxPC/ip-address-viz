@@ -712,7 +712,7 @@
 			{
 				"prefix": "2b00::/8",
 				"type": "reserved",
-				"description": "Reserved"
+				"description": "Global Unicast (Reserved)"
 			},
 			{
 				"prefix": "2c00::/8",
