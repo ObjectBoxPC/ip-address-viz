@@ -23,9 +23,9 @@
 
 	function buildTableHeader(table) {
 		var headerRow = table.append('thead').append('tr');
-		headerRow.append('th');
+		headerRow.append('td');
 		headerRow
-			.selectAll('th[scope=col]')
+			.selectAll('th')
 			.data(d3.range(gridColumns).map(slashEightColumnHeader))
 			.join('th')
 			.attr('scope', 'col')
