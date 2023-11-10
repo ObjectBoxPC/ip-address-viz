@@ -21,47 +21,62 @@
 		return 'x' + i.toString(16) + '00::/8';
 	}
 
-	function buildDataRow(rowData) {
+	function buildDataRow(data) {
 		var row = d3.select(this);
-		if (rowData.type === 'various') {
-			row
-				.selectAll('td')
-				.data(rowData.subblocks)
-				.join('td')
-				.each(function (d) {
-					var block = d3.select(this);
-					if (d.type === 'various') {
-						block.classed('block-fine', true);
-						block
-							.append('table')
-							.selectAll('tr')
-							.data(chunk(d.subblocks, fineGridColumns))
-							.join('tr')
-							.selectAll('td')
-							.data(identity)
-							.join('td')
-							.each(function (fd) { d3.select(this).classed('block-' + fd.type, true); });
-						block
-							.append('div')
-							.classed('block-fine-overlay', true)
-							.text(d.description)
-							.attr('title', d.prefix);
-
-					} else {
-						block
-							.classed('block-small block-' + d.type, true)
-							.text(function (d) { return d.description; })
-							.attr('title', function (d) { return d.prefix; });
-					}
-				});
+		if (data.type === 'various') {
+			buildComplexRow(row, data);
 		} else {
-			row
-				.append('td')
-				.attr('colspan', gridColumns)
-				.classed('block-large block-' + rowData.type, true)
-				.text(rowData.description)
-				.attr('title', function (d) { return d.prefix; });
+			buildSimpleRow(row, data);
 		}
+	}
+
+	function buildComplexRow(row, data) {
+		row
+			.selectAll('td')
+			.data(data.subblocks)
+			.join('td')
+			.each(function (d) {
+				var cell = d3.select(this);
+				if (d.type === 'various') {
+					buildComplexCell(cell, d);
+				} else {
+					buildSimpleCell(cell, d);
+				}
+			});
+	}
+
+	function buildComplexCell(cell, data) {
+		cell.classed('block-fine', true);
+		cell
+			.append('table')
+			.selectAll('tr')
+			.data(chunk(data.subblocks, fineGridColumns))
+			.join('tr')
+			.selectAll('td')
+			.data(identity)
+			.join('td')
+			.attr('class', function (d) { return 'block-' + d.type; });
+		cell
+			.append('div')
+			.classed('block-fine-overlay', true)
+			.text(data.description)
+			.attr('title', data.prefix);
+	}
+
+	function buildSimpleCell(cell, data) {
+		cell
+			.classed('block-small block-' + data.type, true)
+			.text(data.description)
+			.attr('title', data.prefix);
+	}
+
+	function buildSimpleRow(row, data) {
+		row
+			.append('td')
+			.attr('colspan', gridColumns)
+			.classed('block-large block-' + data.type, true)
+			.text(data.description)
+			.attr('title', function (d) { return d.prefix; });
 	}
 
 	var table = d3.select('main').append('table');
