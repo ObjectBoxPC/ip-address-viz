@@ -101,7 +101,7 @@
 			.attr('colspan', gridColumns)
 			.classed('block-large block-' + data.type, true)
 			.text(data.description)
-			.attr('title', function (d) { return d.prefix; });
+			.attr('title', data.prefix);
 	}
 
 	var table = d3.select('main').append('table');
