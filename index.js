@@ -65,22 +65,25 @@
 	}
 
 	var table = d3.select('main').append('table');
-	var headerRow = table.append('tr');
+	var headerRow = table.append('thead').append('tr');
 	headerRow.append('th');
 	headerRow
-		.selectAll('th').filter(function (_, i) { return i > 0; })
+		.selectAll('th[scope=col]')
 		.data(d3.range(gridColumns).map(slashEightColumnHeader))
 		.join('th')
+		.attr('scope', 'col')
 		.text(identity);
+	var tableBody = table.append('tbody');
 
 	d3.json('blocks.json')
 		.then(function (blocks) {
-			var dataRows = table
-				.selectAll('tr').filter(function (_, i) { return i > 0; })
+			var dataRows = tableBody
+				.selectAll('tr')
 				.data(blocks)
 				.join('tr');
 			dataRows
 				.append('th')
+				.attr('scope', 'row')
 				.datum(function (_, i) { return slashFourRowHeader(i); })
 				.text(identity);
 			dataRows.each(buildDataRow);
