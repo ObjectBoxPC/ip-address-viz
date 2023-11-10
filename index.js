@@ -21,8 +21,33 @@
 		return 'x' + i.toString(16) + '00::/8';
 	}
 
-	function buildDataRow(data) {
+	function buildTableHeader(table) {
+		var headerRow = table.append('thead').append('tr');
+		headerRow.append('th');
+		headerRow
+			.selectAll('th[scope=col]')
+			.data(d3.range(gridColumns).map(slashEightColumnHeader))
+			.join('th')
+			.attr('scope', 'col')
+			.text(identity);
+	}
+
+	function buildTableBody(table, data) {
+		table
+			.append('tbody')
+			.selectAll('tr')
+			.data(data)
+			.join('tr')
+			.each(buildDataRow);
+	}
+
+	function buildDataRow(data, i) {
 		var row = d3.select(this);
+		row
+			.append('th')
+			.attr('scope', 'row')
+			.datum(slashFourRowHeader(i))
+			.text(identity);
 		if (data.type === 'various') {
 			buildComplexRow(row, data);
 		} else {
@@ -80,27 +105,9 @@
 	}
 
 	var table = d3.select('main').append('table');
-	var headerRow = table.append('thead').append('tr');
-	headerRow.append('th');
-	headerRow
-		.selectAll('th[scope=col]')
-		.data(d3.range(gridColumns).map(slashEightColumnHeader))
-		.join('th')
-		.attr('scope', 'col')
-		.text(identity);
-	var tableBody = table.append('tbody');
-
+	buildTableHeader(table);
 	d3.json('blocks.json')
-		.then(function (blocks) {
-			var dataRows = tableBody
-				.selectAll('tr')
-				.data(blocks)
-				.join('tr');
-			dataRows
-				.append('th')
-				.attr('scope', 'row')
-				.datum(function (_, i) { return slashFourRowHeader(i); })
-				.text(identity);
-			dataRows.each(buildDataRow);
+		.then(function (data) {
+			buildTableBody(table, data);
 		});
 })(d3);
