@@ -1,6 +1,6 @@
 'use strict';
 
-(function () {
+(function (d3) {
 	function identity(x) {
 		return x;
 	}
@@ -85,4 +85,4 @@
 				.text(identity);
 			dataRows.each(buildDataRow);
 		});
-})();
+})(d3);
