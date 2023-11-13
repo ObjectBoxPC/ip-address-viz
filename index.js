@@ -127,7 +127,10 @@
 	function ComplexDataCell(props) {
 		return h(
 			'td',
-			{ 'class': 'block-fine' },
+			{
+				title: props.data.prefix,
+				'class': 'block-fine',
+			},
 			h(
 				'table',
 				null,
@@ -148,7 +151,6 @@
 			h(
 				'div',
 				{
-					title: props.data.prefix,
 					'class': 'block-fine-overlay',
 				},
 				props.data.description
