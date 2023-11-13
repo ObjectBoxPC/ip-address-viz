@@ -353,7 +353,7 @@
 				"subblocks": [
 					{
 						"prefix": "2400::/12",
-						"type": "unicast",
+						"type": "rir",
 						"description": "APNIC"
 					},
 					{
@@ -445,7 +445,7 @@
 				"subblocks": [
 					{
 						"prefix": "2600::/12",
-						"type": "unicast",
+						"type": "rir",
 						"description": "ARIN"
 					},
 					{
@@ -460,7 +460,7 @@
 					},
 					{
 						"prefix": "2630::/12",
-						"type": "unicast",
+						"type": "rir",
 						"description": "ARIN"
 					},
 					{
@@ -537,7 +537,7 @@
 				"subblocks": [
 					{
 						"prefix": "2800::/12",
-						"type": "unicast",
+						"type": "rir",
 						"description": "LACNIC"
 					},
 					{
@@ -629,12 +629,12 @@
 				"subblocks": [
 					{
 						"prefix": "2a00::/12",
-						"type": "unicast",
+						"type": "rir",
 						"description": "RIPE NCC"
 					},
 					{
 						"prefix": "2a10::/12",
-						"type": "unicast",
+						"type": "rir",
 						"description": "RIPE NCC"
 					},
 					{
@@ -721,7 +721,7 @@
 				"subblocks": [
 					{
 						"prefix": "2c00::/12",
-						"type": "unicast",
+						"type": "rir",
 						"description": "AFRINIC"
 					},
 					{
