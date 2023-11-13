@@ -19,26 +19,43 @@
 	var gridColumns = 16;
 	var fineGridColumns = 4;
 
-	function slashFourRowHeader(i) {
-		return i.toString(16) + '000::/4';
-	}
+	var ipv6Config = {
+		title: 'IPv6 Address Space Visualization',
+		dataPath: 'blocks.json',
+		slashFourRowHeader: function (i) {
+			return i.toString(16) + '000::/4';
+		},
+		slashEightColumnHeader: function (i) {
+			return 'x' + i.toString(16) + '00::/8';
+		},
+	};
 
-	function slashEightColumnHeader(i) {
-		return 'x' + i.toString(16) + '00::/8';
+	var ProtocolConfig = preact.createContext(ipv6Config);
+
+	function App() {
+		return h(
+			ProtocolConfig.Provider,
+			{ value: ipv6Config },
+			h(
+				DataTable,
+				null
+			)
+		);
 	}
 
 	function DataTable() {
 		var dataState = preactHooks.useState([]);
+		var protocolConfig = preactHooks.useContext(ProtocolConfig);
 
 		preactHooks.useEffect(function () {
 			var xhr = new XMLHttpRequest();
-			xhr.open('GET', 'blocks.json');
+			xhr.open('GET', protocolConfig.dataPath);
 			xhr.addEventListener('load', function () {
 				var data = JSON.parse(xhr.responseText);
 				dataState[1](data);
 			});
 			xhr.send();
-		}, []);
+		}, [protocolConfig]);
 
 		return h(
 			'table',
@@ -69,7 +86,7 @@
 					return h(
 						'th',
 						{ scope: 'col', key: i },
-						slashEightColumnHeader(i)
+						preactHooks.useContext(ProtocolConfig).slashEightColumnHeader(i)
 					);
 				})
 			)
@@ -96,7 +113,7 @@
 			h(
 				'th',
 				{ scope: 'row' },
-				slashFourRowHeader(props.index)
+				preactHooks.useContext(ProtocolConfig).slashFourRowHeader(props.index)
 			),
 			props.data.type === 'various'
 				? h(
@@ -181,5 +198,5 @@
 		);
 	}
 
-	preact.render(h(DataTable), document.getElementsByTagName('main')[0]);
+	preact.render(h(App, null), document.getElementsByTagName('main')[0]);
 })(document, preact, preactHooks);
