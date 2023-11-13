@@ -37,10 +37,24 @@
 			ProtocolConfig.Provider,
 			{ value: ipv6Config },
 			h(
+				PageTitle,
+				null
+			),
+			h(
 				DataTable,
 				null
 			)
 		);
+	}
+
+	function PageTitle() {
+		var protocolConfig = preactHooks.useContext(ProtocolConfig);
+
+		preactHooks.useEffect(function () {
+			document.title = protocolConfig.title;
+		}, [protocolConfig]);
+
+		return null;
 	}
 
 	function DataTable() {
