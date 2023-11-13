@@ -21,12 +21,23 @@
 
 	var ipv6Config = {
 		title: 'IPv6 Address Space Visualization',
-		dataPath: 'blocks.json',
+		dataPath: 'blocks-v6.json',
 		slashFourRowHeader: function (i) {
 			return i.toString(16) + '000::/4';
 		},
 		slashEightColumnHeader: function (i) {
 			return 'x' + i.toString(16) + '00::/8';
+		},
+	};
+
+	var ipv4Config = {
+		title: 'IPv4 Address Space Visualization',
+		dataPath: 'blocks-v4.json',
+		slashFourRowHeader: function (i) {
+			return (i * gridColumns) + '.0.0.0/4';
+		},
+		slashEightColumnHeader: function (i) {
+			return '+' + i + '.0.0.0/8';
 		},
 	};
 

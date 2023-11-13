@@ -1,0 +1,1708 @@
+[
+	{
+		"prefix": "0.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "0.0.0.0/8",
+				"type": "special",
+				"description": "Self-Identification"
+			},
+			{
+				"prefix": "1.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "2.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "3.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "4.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "5.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "6.0.0.0/8",
+				"type": "org",
+				"description": "US DoD (Army Information Systems Center)"
+			},
+			{
+				"prefix": "7.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "8.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "9.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "10.0.0.0/8",
+				"type": "special",
+				"description": "Private Use"
+			},
+			{
+				"prefix": "11.0.0.0/8",
+				"type": "org",
+				"description": "US DoD (DoD Intel Information Systems)"
+			},
+			{
+				"prefix": "12.0.0.0/8",
+				"type": "org",
+				"description": "AT&T Bell Laboratories"
+			},
+			{
+				"prefix": "13.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "14.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "15.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			}
+		]
+	},
+	{
+		"prefix": "16.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "16.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "17.0.0.0/8",
+				"type": "org",
+				"description": "Apple Computer"
+			},
+			{
+				"prefix": "18.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "19.0.0.0/8",
+				"type": "org",
+				"description": "Ford Motor Company"
+			},
+			{
+				"prefix": "20.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "21.0.0.0/8",
+				"type": "org",
+				"description": "US DoD (DDN-RVN)"
+			},
+			{
+				"prefix": "22.0.0.0/8",
+				"type": "org",
+				"description": "US DoD (Defense Information Systems Agency)"
+			},
+			{
+				"prefix": "23.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "24.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "25.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "26.0.0.0/8",
+				"type": "org",
+				"description": "US DoD (Defense Information Systems Agency)"
+			},
+			{
+				"prefix": "27.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "28.0.0.0/8",
+				"type": "org",
+				"description": "US DoD (DSI-North)"
+			},
+			{
+				"prefix": "29.0.0.0/8",
+				"type": "org",
+				"description": "US DoD (Defense Information Systems Agency)"
+			},
+			{
+				"prefix": "30.0.0.0/8",
+				"type": "org",
+				"description": "US DoD (Defense Information Systems Agency)"
+			},
+			{
+				"prefix": "31.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			}
+		]
+	},
+	{
+		"prefix": "32.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "32.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "33.0.0.0/8",
+				"type": "org",
+				"description": "US DoD (DLA Systems Automation Center)"
+			},
+			{
+				"prefix": "34.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "35.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "36.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "37.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "38.0.0.0/8",
+				"type": "org",
+				"description": "PSINet"
+			},
+			{
+				"prefix": "39.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "40.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "41.0.0.0/8",
+				"type": "rir",
+				"description": "AFRINIC"
+			},
+			{
+				"prefix": "42.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "43.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "44.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "45.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "46.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "47.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			}
+		]
+	},
+	{
+		"prefix": "48.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "48.0.0.0/8",
+				"type": "org",
+				"description": "Prudential Securities"
+			},
+			{
+				"prefix": "49.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "50.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "51.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "52.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "53.0.0.0/8",
+				"type": "org",
+				"description": "Daimler"
+			},
+			{
+				"prefix": "54.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "55.0.0.0/8",
+				"type": "org",
+				"description": "US DoD (DoD Network Information Center)"
+			},
+			{
+				"prefix": "56.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "57.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "58.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "59.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "60.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "61.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "62.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "63.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			}
+		]
+	},
+	{
+		"prefix": "64.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "64.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "65.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "66.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "67.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "68.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "69.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "70.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "71.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "72.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "73.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "74.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "75.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "76.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "77.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "78.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "79.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			}
+		]
+	},
+	{
+		"prefix": "80.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "80.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "81.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "82.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "83.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "84.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "85.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "86.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "87.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "88.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "89.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "90.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "91.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "92.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "93.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "94.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "95.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			}
+		]
+	},
+	{
+		"prefix": "96.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "96.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "97.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "98.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "99.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "100.0.0.0/8",
+				"type": "various",
+				"description": "ARIN, Shared Address Space",
+				"subblocks": [
+					{
+						"prefix": "100.0.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.16.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.32.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.48.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.64.0.0/12",
+						"type": "special",
+						"description": "Shared Address Space"
+					},
+					{
+						"prefix": "100.80.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.96.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.112.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.128.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.144.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.160.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.176.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.192.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.208.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.224.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "100.240.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					}
+				]
+			},
+			{
+				"prefix": "101.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "102.0.0.0/8",
+				"type": "rir",
+				"description": "AFRINIC"
+			},
+			{
+				"prefix": "103.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "104.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "105.0.0.0/8",
+				"type": "rir",
+				"description": "AFRINIC"
+			},
+			{
+				"prefix": "106.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "107.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "108.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "109.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "110.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "111.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			}
+		]
+	},
+	{
+		"prefix": "112.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "112.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "113.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "114.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "115.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "116.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "117.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "118.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "119.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "120.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "121.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "122.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "123.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "124.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "125.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "126.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "127.0.0.0/8",
+				"type": "special",
+				"description": "Loopback"
+			}
+		]
+	},
+	{
+		"prefix": "128.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "128.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "129.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "130.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "131.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "132.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "133.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "134.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "135.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "136.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "137.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "138.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "139.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "140.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "141.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "142.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "143.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			}
+		]
+	},
+	{
+		"prefix": "144.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "144.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "145.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "146.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "147.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "148.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "149.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "150.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "151.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "152.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "153.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "154.0.0.0/8",
+				"type": "rir",
+				"description": "AFRINIC"
+			},
+			{
+				"prefix": "155.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "156.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "157.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "158.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "159.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			}
+		]
+	},
+	{
+		"prefix": "160.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "160.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "161.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "162.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "163.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "164.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "165.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "166.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "167.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "168.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "169.0.0.0/8",
+				"type": "various",
+				"description": "ARIN, Link-Local",
+				"subblocks": [
+					{
+						"prefix": "169.0.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.16.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.32.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.48.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.64.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.80.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.96.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.112.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.128.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.144.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.160.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.176.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.192.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.208.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.224.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "169.240.0.0/12",
+						"type": "various",
+						"description": "ARIN, Link-Local"
+					}
+				]
+			},
+			{
+				"prefix": "170.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "171.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "172.0.0.0/8",
+				"type": "various",
+				"description": "ARIN, Private Use",
+				"subblocks": [
+					{
+						"prefix": "172.0.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.16.0.0/12",
+						"type": "special",
+						"description": "Private Use"
+					},
+					{
+						"prefix": "172.32.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.48.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.64.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.80.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.96.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.112.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.128.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.144.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.160.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.176.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.192.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.208.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.224.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "172.240.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					}
+				]
+			},
+			{
+				"prefix": "173.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "174.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "175.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			}
+		]
+	},
+	{
+		"prefix": "176.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "176.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "177.0.0.0/8",
+				"type": "rir",
+				"description": "LACNIC"
+			},
+			{
+				"prefix": "178.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "179.0.0.0/8",
+				"type": "rir",
+				"description": "LACNIC"
+			},
+			{
+				"prefix": "180.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "181.0.0.0/8",
+				"type": "rir",
+				"description": "LACNIC"
+			},
+			{
+				"prefix": "182.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "183.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "184.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "185.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "186.0.0.0/8",
+				"type": "rir",
+				"description": "LACNIC"
+			},
+			{
+				"prefix": "187.0.0.0/8",
+				"type": "rir",
+				"description": "LACNIC"
+			},
+			{
+				"prefix": "188.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "189.0.0.0/8",
+				"type": "rir",
+				"description": "LACNIC"
+			},
+			{
+				"prefix": "190.0.0.0/8",
+				"type": "rir",
+				"description": "LACNIC"
+			},
+			{
+				"prefix": "191.0.0.0/8",
+				"type": "rir",
+				"description": "LACNIC"
+			}
+		]
+	},
+	{
+		"prefix": "192.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "192.0.0.0/8",
+				"type": "various",
+				"description": "Various",
+				"subblocks": [
+					{
+						"prefix": "192.0.0.0/12",
+						"type": "various",
+						"description": "Protocol Assignments, Testing, ARIN"
+					},
+					{
+						"prefix": "192.16.0.0/12",
+						"type": "various",
+						"description": "ARIN, AS112"
+					},
+					{
+						"prefix": "192.32.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "192.48.0.0/12",
+						"type": "various",
+						"description": "ARIN, AMT"
+					},
+					{
+						"prefix": "192.64.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "192.80.0.0/12",
+						"type": "various",
+						"description": "ARIN, 6to4 Relay Anycast"
+					},
+					{
+						"prefix": "192.96.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "192.112.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "192.128.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "192.144.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "192.160.0.0/12",
+						"type": "various",
+						"description": "ARIN, Private Use, AS112"
+					},
+					{
+						"prefix": "192.176.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "192.192.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "192.208.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "192.224.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "192.240.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					}
+				]
+			},
+			{
+				"prefix": "193.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "194.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "195.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "196.0.0.0/8",
+				"type": "rir",
+				"description": "AFRINIC"
+			},
+			{
+				"prefix": "197.0.0.0/8",
+				"type": "rir",
+				"description": "AFRINIC"
+			},
+			{
+				"prefix": "198.0.0.0/8",
+				"type": "various",
+				"description": "ARIN, Benchmarking, Testing",
+				"subblocks": [
+					{
+						"prefix": "198.0.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "198.16.0.0/12",
+						"type": "various",
+						"description": "ARIN, Benchmarking"
+					},
+					{
+						"prefix": "198.32.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "198.48.0.0/12",
+						"type": "various",
+						"description": "ARIN, Testing"
+					},
+					{
+						"prefix": "198.64.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "198.80.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "198.96.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "198.112.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "198.128.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "198.144.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "198.160.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "198.176.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "198.192.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "198.208.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "198.224.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					},
+					{
+						"prefix": "198.240.0.0/12",
+						"type": "rir",
+						"description": "ARIN"
+					}
+				]
+			},
+			{
+				"prefix": "199.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "200.0.0.0/8",
+				"type": "rir",
+				"description": "LACNIC"
+			},
+			{
+				"prefix": "201.0.0.0/8",
+				"type": "rir",
+				"description": "LACNIC"
+			},
+			{
+				"prefix": "202.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "203.0.0.0/8",
+				"type": "various",
+				"description": "APNIC, Testing",
+				"subblocks": [
+					{
+						"prefix": "203.0.0.0/12",
+						"type": "various",
+						"description": "APNIC, Testing"
+					},
+					{
+						"prefix": "203.16.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.32.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.48.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.64.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.80.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.96.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.112.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.128.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.144.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.160.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.176.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.192.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.208.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.224.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					},
+					{
+						"prefix": "203.240.0.0/12",
+						"type": "rir",
+						"description": "APNIC"
+					}
+				]
+			},
+			{
+				"prefix": "204.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "205.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "206.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "207.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			}
+		]
+	},
+	{
+		"prefix": "208.0.0.0/4",
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "208.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "209.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "210.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "211.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "212.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "213.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "214.0.0.0/8",
+				"type": "org",
+				"description": "US-DOD"
+			},
+			{
+				"prefix": "215.0.0.0/8",
+				"type": "org",
+				"description": "US-DOD"
+			},
+			{
+				"prefix": "216.0.0.0/8",
+				"type": "rir",
+				"description": "ARIN"
+			},
+			{
+				"prefix": "217.0.0.0/8",
+				"type": "rir",
+				"description": "RIPE NCC"
+			},
+			{
+				"prefix": "218.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "219.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "220.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "221.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "222.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			},
+			{
+				"prefix": "223.0.0.0/8",
+				"type": "rir",
+				"description": "APNIC"
+			}
+		]
+	},
+	{
+		"prefix": "224.0.0.0/4",
+		"type": "special",
+		"description": "Multicast"
+	},
+	{
+		"prefix": "240.0.0.0/4",
+		"type": "reserved",
+		"description": "Reserved"
+	}
+]
