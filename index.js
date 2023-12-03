@@ -1,6 +1,6 @@
 'use strict';
 
-(function (document, preact, preactHooks) {
+(function (document, window, preact, preactHooks) {
 	var h = preact.h;
 
 	function range(max) {
@@ -44,10 +44,36 @@
 	var ProtocolConfig = preact.createContext(ipv6Config);
 
 	function App() {
-		return h(
-			Visualization,
-			{ protocolConfig: ipv6Config }
-		);
+		var hashState = preactHooks.useState('');
+		function updateHashState() {
+			hashState[1](window.location.hash);
+		}
+		preactHooks.useEffect(function () {
+			updateHashState();
+			window.addEventListener('hashchange', updateHashState);
+			return function () {
+				window.removeEventListener('hashchange', updateHashState);
+			}
+		}, []);
+
+		switch (hashState[0]) {
+		case '#ipv6':
+			return h(
+				Visualization,
+				{ protocolConfig: ipv6Config }
+			);
+		case '#ipv4':
+			return h(
+				Visualization,
+				{ protocolConfig: ipv4Config }
+			);
+		default:
+			// TODO: Create chooser for visualizations
+			return h(
+				'div',
+				null
+			);
+		}
 	}
 
 	function Visualization(props) {
@@ -233,4 +259,4 @@
 	}
 
 	preact.render(h(App, null), document.getElementsByTagName('main')[0]);
-})(document, preact, preactHooks);
+})(document, window, preact, preactHooks);
