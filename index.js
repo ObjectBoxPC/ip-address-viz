@@ -68,12 +68,42 @@
 				{ protocolConfig: ipv4Config }
 			);
 		default:
-			// TODO: Create chooser for visualizations
 			return h(
-				'div',
+				VisualizationChooser,
 				null
 			);
 		}
+	}
+
+	function VisualizationChooser() {
+		return [
+			h(
+				PageTitle,
+				{ title: 'IP Address Space Visualization' }
+			),
+			h(
+				'ul',
+				null,
+				h(
+					'li',
+					null,
+					h(
+						'a',
+						{ href: '#ipv6' },
+						'IPv6'
+					)
+				),
+				h(
+					'li',
+					null,
+					h(
+						'a',
+						{ href: '#ipv4' },
+						'IPv4'
+					)
+				)
+			),
+		];
 	}
 
 	function Visualization(props) {
