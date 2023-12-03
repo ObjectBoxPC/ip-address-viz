@@ -45,8 +45,15 @@
 
 	function App() {
 		return h(
+			Visualization,
+			{ protocolConfig: ipv6Config }
+		);
+	}
+
+	function Visualization(props) {
+		return h(
 			ProtocolConfig.Provider,
-			{ value: ipv6Config },
+			{ value: props.protocolConfig },
 			h(
 				PageTitle,
 				null
