@@ -56,7 +56,7 @@
 			{ value: props.protocolConfig },
 			h(
 				PageTitle,
-				null
+				{ title: props.protocolConfig.title }
 			),
 			h(
 				DataTable,
@@ -65,14 +65,16 @@
 		);
 	}
 
-	function PageTitle() {
-		var protocolConfig = preactHooks.useContext(ProtocolConfig);
-
+	function PageTitle(props) {
 		preactHooks.useEffect(function () {
-			document.title = protocolConfig.title;
-		}, [protocolConfig]);
+			document.title = props.title;
+		}, [props.title]);
 
-		return null;
+		return h(
+			'h1',
+			null,
+			props.title
+		);
 	}
 
 	function DataTable() {
