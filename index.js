@@ -83,7 +83,7 @@
 			),
 			h(
 				'ul',
-				null,
+				{ 'class': 'viz-options' },
 				h(
 					'li',
 					null,
