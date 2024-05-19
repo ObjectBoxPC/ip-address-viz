@@ -16,6 +16,7 @@ Each file contains a top-level array of blocks, which are objects with the follo
 	* **org**: "Legacy" IPv4 allocation to an organization
 	* **reserved**: Reserved (or not allocated)
 	* **special**: Special allocation (not for global unicast)
+	* **deprecated**: Deprecated allocation
 	* **various**: Various allocations in subblocks, or a single allocation that does not occupy the entire block
 * **description**: Description of the block (may be omitted for various-type blocks)
 * **subblocks**: Subblocks (if applicable)
