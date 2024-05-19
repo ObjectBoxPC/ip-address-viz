@@ -830,8 +830,171 @@
 	},
 	{
 		"prefix": "5000::/4",
-		"type": "reserved",
-		"description": "Reserved"
+		"type": "various",
+		"subblocks": [
+			{
+				"prefix": "5000::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5100::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5200::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5300::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5400::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5500::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5600::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5700::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5800::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5900::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5a00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5b00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5c00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5d00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5e00::/8",
+				"type": "reserved",
+				"description": "Reserved"
+			},
+			{
+				"prefix": "5f00::/8",
+				"type": "various",
+				"description": "SRv6",
+				"subblocks": [
+					{
+						"prefix": "5f00::/12",
+						"type": "various",
+						"description": "SRv6"
+					},
+					{
+						"prefix": "5f10::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5f20::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5f30::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5f40::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5f50::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5f60::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5f70::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5f80::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5f90::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5fa0::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5fb0::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5fc0::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5fd0::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5fe0::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					},
+					{
+						"prefix": "5ff0::/12",
+						"type": "reserved",
+						"description": "Reserved"
+					}
+				]
+			}
+		]
 	},
 	{
 		"prefix": "6000::/4",
