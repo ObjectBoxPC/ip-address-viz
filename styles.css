@@ -22,6 +22,7 @@ body {
 
 table {
 	border-collapse: collapse;
+	margin: 0em auto;
 }
 
 th {
