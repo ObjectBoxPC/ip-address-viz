@@ -1,14 +1,10 @@
 body {
 	font-family: sans-serif;
-}
-
-h1 {
 	text-align: center;
 }
 
 .viz-options {
 	list-style-type: none;
-	text-align: center;
 	padding: 0em;
 }
 
@@ -38,7 +34,6 @@ th {
 
 tbody td {
 	border: 0.1em solid black;
-	text-align: center;
 	vertical-align: middle;
 	padding: 0.25em;
 }
