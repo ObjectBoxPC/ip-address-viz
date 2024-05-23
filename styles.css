@@ -34,7 +34,7 @@ th {
 }
 
 tbody td {
-	border: 0.1em solid black;
+	border: 2px solid black;
 	vertical-align: middle;
 	padding: 0.25em;
 }
