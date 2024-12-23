@@ -358,8 +358,8 @@
 					},
 					{
 						"prefix": "2410::/12",
-						"type": "reserved",
-						"description": "Global Unicast (Reserved)"
+						"type": "rir",
+						"description": "APNIC"
 					},
 					{
 						"prefix": "2420::/12",
