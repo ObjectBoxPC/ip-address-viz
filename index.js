@@ -67,9 +67,14 @@
 				Visualization,
 				{ protocolConfig: ipv4Config }
 			);
-		default:
+		case '':
 			return h(
 				VisualizationChooser,
+				null
+			);
+		default:
+			return h(
+				VisualizationError,
 				null
 			);
 		}
@@ -101,6 +106,25 @@
 						{ href: '#ipv4' },
 						'IPv4'
 					)
+				)
+			),
+		];
+	}
+
+	function VisualizationError() {
+		return [
+			h(
+				PageTitle,
+				{ title: 'Error' }
+			),
+			h(
+				'p',
+				null,
+				'The requested visualization could not be generated. ',
+				h(
+					'a',
+					{ href: '#' },
+					'Return to main screen.'
 				)
 			),
 		];
