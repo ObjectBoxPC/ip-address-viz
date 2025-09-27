@@ -93,7 +93,7 @@
 			{
 				"prefix": "0100::/8",
 				"type": "various",
-				"description": "Discard-Only",
+				"description": "Discard-Only, Dummy",
 				"subblocks": [
 					{
 						"prefix": "0100::/12",
