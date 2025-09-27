@@ -98,7 +98,7 @@
 					{
 						"prefix": "0100::/12",
 						"type": "various",
-						"description": "Discard-Only"
+						"description": "Discard-Only, Dummy"
 					},
 					{
 						"prefix": "0110::/12",
