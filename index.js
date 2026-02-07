@@ -158,7 +158,7 @@
 	}
 
 	function DataTable() {
-		var dataState = preactHooks.useState([]);
+		var dataState = preactHooks.useState(null);
 		var protocolConfig = preactHooks.useContext(ProtocolConfig);
 
 		preactHooks.useEffect(function () {
@@ -170,6 +170,10 @@
 			});
 			xhr.send();
 		}, [protocolConfig]);
+
+		if (!dataState[0]) {
+			return h('p', null, 'Loading data');
+		}
 
 		return h(
 			'table',
